@@ -202,12 +202,12 @@ latlong=lat:long'
      identifier = "IoT device performance and failures"
 
      # if dataage - use:dataage_utcoffset_timetype
-     preprocesslogic='anomprob,trend,avg'
-     #preprocesslogic='dataage_-4_day,trend,min,max' # millisecond,second,minute,hour,day
-     #preprocesslogic='dataage_-3_hour' # millisecond,second,minute,hour,day
-#     preprocesslogic='dataage_2_minute' # millisecond,second,minute,hour,day
+     preprocesslogic='outliers,trend,avg'
+     #preprocesslogic='dataage_-3_day,trend,min,max' # millisecond,second,minute,hour,day
+     #preprocesslogic='dataage_-2_hour' # millisecond,second,minute,hour,day
+#     preprocesslogic='dataage_1_minute' # millisecond,second,minute,hour,day
 #     preprocesslogic='dataage_1_second' # millisecond,second,minute,hour,day
-#     preprocesslogic='dataage_500_millisecond' # millisecond,second,minute,hour,day
+#     preprocesslogic='dataage_1_millisecond' # millisecond,second,minute,hour,day
 
      
 #     pathtotmlattrs='oem=id,lat=subject.reference,long=component.0.code.coding.0.display,location=component.1.valueQuantity.value'     
