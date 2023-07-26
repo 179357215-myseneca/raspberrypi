@@ -203,10 +203,10 @@ latlong=lat:long'
 
      # if dataage - use:dataage_utcoffset_timetype
      preprocesslogic='outliers,anomprob,consistency,variance,varied'
-     #preprocesslogic='dataage_-3_day,trend,min,max' # millisecond,second,minute,hour,day
-     #preprocesslogic='dataage_-2_hour' # millisecond,second,minute,hour,day
+     #preprocesslogic='dataage_-4_day,trend,min,max' # millisecond,second,minute,hour,day
+     #preprocesslogic='dataage_-3_hour' # millisecond,second,minute,hour,day
 #     preprocesslogic='dataage_1_minute' # millisecond,second,minute,hour,day
-#     preprocesslogic='dataage_1_second' # millisecond,second,minute,hour,day
+#     preprocesslogic='dataage_2_second' # millisecond,second,minute,hour,day
 #     preprocesslogic='dataage_1_millisecond' # millisecond,second,minute,hour,day
 
      
